@@ -18,7 +18,9 @@
 				<h1>Leftbar</h1> Menu lado esquerdo
 			</h:panelGroup>
 			<h:panelGroup id="content" layout="block">
+			<h:form>
 				<ui:insert name="content">Main Content</ui:insert>
+			</h:form>
 			</h:panelGroup>
 		</h:panelGroup>
 		<h:panelGroup id="footer" layout="block">#{msg.footerText}
